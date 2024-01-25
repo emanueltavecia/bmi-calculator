@@ -2,7 +2,7 @@
 
 Project developed on Rocketseat's Explorer course
 
-**BMI Calculator is a game designed to learn basic JavaScript programming concepts**
+**BMI Calculator is a calculator designed to learn basic JavaScript programming concepts**
 
 ![BMI Calculator project screenshot](./.github/screenshot.png)
 
