@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
   <head>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -9,27 +9,27 @@
     />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Calculadora IMC | Project 09 - Explorer - Stage 05</title>
+    <title>BMI Calculator | Project 09 - Explorer - Stage 05</title>
     <link rel="stylesheet" href="./style.css" />
     <script src="./js/script.js" type="module" defer></script>
   </head>
   <body>
-    <div class="alert-error">Digite somente números</div>
+    <div class="alert-error">Enter numbers only</div>
     <div class="container">
       <main class="card">
         <form action="">
-          <h1 class="title">Calculadora IMC</h1>
+          <h1 class="title">BMI Calculator</h1>
           <div class="input-wrapper">
-            <label for="weight">Peso (kg)</label>
+            <label for="weight">Weight (kg)</label>
             <input id="weight" type="text" placeholder="60" />
           </div>
           <div class="input-wrapper">
-            <label for="height">Altura (cm)</label>
+            <label for="height">Height (cm)</label>
             <input id="height" type="text" placeholder="165" />
           </div>
           <button>
-            Calcular IMC
-            <img src="./assets/arrow.svg" alt="Seta para direita" />
+            Calculate BMI
+            <img src="./assets/arrow.svg" alt="Right arrow" />
           </button>
         </form>
       </main>
@@ -38,12 +38,12 @@
       <div class="modal card">
         <h2 class="title">
           <button class="close">
-            <img src="./assets/close.svg" alt="Botão de fechar o pop-up" />
+            <img src="./assets/close.svg" alt="Close popup button" />
           </button>
-          <span>Seu IMC é de 28</span>
+          <span>Your BMI is 28</span>
         </h2>
-        <p class="result">Resultado:</p>
-        <p class="result-description">Você está acima do peso ideal.</p>
+        <p class="result">Result:</p>
+        <p class="result-description">You are over your ideal weight.</p>
       </div>
     </div>
   </body>

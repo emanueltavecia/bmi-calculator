@@ -17,11 +17,11 @@ export function displayDescriptionMessage(result) {
 }
 
 const results = [
-  'Você está muito abaixo do peso.',
-  'Você está abaixo do peso.',
-  'Você está com peso normal.',
-  'Você está acima do peso.',
-  'Você está muito acima do peso. Obesidade grau I.',
-  'Você está muito acima do peso. Obesidade grau II.',
-  'Você está muito acima do peso. Obesidade grau III.',
+  'You are very underweight.',
+  'You are underweight.',
+  'You are of normal weight.',
+  'Are you overweight.',
+  'You are very overweight. Grade I obesity.',
+  'You are very overweight. Grade II obesity.',
+  'You are very overweight. Grade III obesity.',
 ]
